@@ -153,6 +153,7 @@
 
     #section_about img {
         width: 100%;
+        height: auto !important;
     }
 
     .gallery {
@@ -331,6 +332,7 @@
 
     #section_about img {
         width: 30%;
+        height: auto !important;
         padding-right: 4em;
         margin-left: 2em;
     }
@@ -342,6 +344,7 @@
 
     .gallery img {
         width: 32%;
+        height: auto !important;
         margin: 0.2em;
     }
 
