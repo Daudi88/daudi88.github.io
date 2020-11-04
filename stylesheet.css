@@ -161,6 +161,7 @@
         max-width: 768px;
         justify-content: center;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .gallery img {
