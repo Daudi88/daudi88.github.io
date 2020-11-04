@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Kristi');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Libre Caslon Text');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+    
+    body {
+        background-color: ghostwhite;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+        height: 12em;
+        background-repeat: no-repeat;
+    }
+    
+    .nav_desktop {
+        display: none;
+    }
+    
+    #small_index {
+        height: 20em;
+        background-image: url("img/backgrounds/bride-1867228_1920.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    #small_about {
+        background-image: url("img/backgrounds/J76A0527.jpg");
+        background-position: left 0;
+        background-size: 100%;
+    }
+    
+    #small_wedding {
+        background-image: url("img/backgrounds/bride-1867228_1920.jpg");
+        background-size: 100%;
+        background-position: center 25%;
+    }
+    
+    #small_portrait {
+        background-image: url("img/backgrounds/8X2A2123_websize.jpg");
+        background-size: 100%;
+        background-position: center 25%;
+    }
+    
+    #small_family {
+        background-image: url("img/backgrounds/aron-920236_1280.jpg");
+        background-size: 100%;
+        background-position: center 25%;
+    }
+    
+    #small_business {
+        background-image: url("img/backgrounds/J76A0617.jpg");
+        background-size: 100%;
+    }
+    
+    #small_contact {
+        background-image: url("img/backgrounds/8X2A2100_websize.jpg");
+        background-size: 100%;
+        background-position: top;
+    }
+    
+    .small_logo {
+        font-size: 7vw;
+        font-weight: normal;
+        color: black;
+        text-align: center;
+        padding: 0.75em 0.6em;
+        text-decoration: none;
+        font-family: Kristi;
+    }
+    
+    .dropdown{
+        overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+        font-size: 3vw;
+        border: none;
+        background: none;
+        outline: none;
+        color: black;
+        padding: 0.75em 0;
+        margin-top: 2.1em;
+    }
+    
+    nav a:hover, .dropdown:hover .dropbtn {
+        color: gold;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 10em;
+        box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 0.75em 1em;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-family: Quicksand, sans-serif;
+        font-size: 1vw;
+        font-weight: bold;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    article {
+        padding: 1em 1em;
+    }
+
+    h2, h3 {
+        font-family: Quicksand, sans-serif;
+        margin-bottom: -0.1em;
+        font-size: 1.2em;
+        padding-left: 0.4em;
+    }
+
+    p {
+        font-family: Libre Caslon Text, serif;
+        line-height: 1.5em;
+        font-size: 0.9em;
+        padding: 0.5em;
+    }
+
+    section {
+        display: flex;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    #section_about {
+        display: block;
+        margin: 2em;
+    }
+
+    #section_about img {
+        width: 100%;
+    }
+
+    .gallery {
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    .gallery img {
+        width: 98%;
+        margin: 0.2em;
+    }
+
+    #section_contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        justify-content: center;
+        width: 80%;
+        margin: 0 2em;
+    }
+
+    form label {
+        font-family: Quicksand, sans-serif;
+        font-size: 0.7em;
+    }
+
+    form input[type="text"] {
+        width: 100%;
+        margin-bottom: 1.2em;
+    }
+
+    form textarea {
+        width: 100%;
+        margin-bottom: 1.2em;
+    }
+
+    form input[type="submit"] {
+        background-color: dimgray;
+        border: none;
+        border-radius: 0.3em;
+        padding: 0.2em 1em;
+    }
+
+    
+    footer {
+        font-family: Libre Caslon Text, serif;
+        font-size: 0.8em;
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        color: #333;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .nav_phones {display: none;}
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+        background-color: ghostwhite;
+    }
+
+    nav {
+        display: flex;
+        height: 20em;
+        justify-content: center;
+    }
+
+    #nav_index {
+        display: flex;
+        background-image: url("img/backgrounds/bride-1867228_1920.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 40em;
+    }
+
+    #nav_about {
+        background-image: url("img/backgrounds/J76A0527.jpg");
+        background-size: 100%;
+    }
+
+    #nav_wedding {
+        background-image: url("img/backgrounds/bride-1867228_1920.jpg");
+        background-size: 100%;
+        background-position: center 25%;
+    }
+
+    #nav_portrait {
+        background-image: url("img/backgrounds/8X2A2123_websize.jpg");
+        background-size: 100%;
+        background-position: center 25%;
+    }
+
+    #nav_family {
+        background-image: url("img/backgrounds/aron-920236_1280.jpg");
+        background-size: 100%;
+        background-position: center 25%;
+    }
+
+    #nav_business {
+        background-image: url("img/backgrounds/J76A0617.jpg");
+        background-size: 100%;
+        background-position: bottom;
+    }
+
+    #nav_contact {
+        background-image: url("img/backgrounds/8X2A2100_websize.jpg");
+        background-size: 100%;
+        background-position: top;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin-top: 5em;
+    }
+
+    nav ul li {
+        font-family: Quicksand, sans-serif;
+        padding: 0 1em;
+        text-align: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 1.3vw;
+        font-weight: bold;
+    }
+
+    nav ul li a:link {
+        color: black;
+    }
+
+    nav ul li a:visited {
+        color: black;
+    }
+
+    nav ul li a:hover {
+        color: gold;;
+    }
+
+    .logo {
+        font-family: Kristi, sans-serif;
+        font-size: 7vw;
+        font-weight: normal;
+        position: relative;
+        top: -0.5em;
+    }
+
+    article {
+        padding: 0 2em;
+    }
+
+    h2, h3 {
+        font-family: Quicksand, sans-serif;
+        margin-bottom: -0.1em;
+        padding: 0.3em;
+    }
+
+    p {
+        font-family: Libre Caslon Text, serif;
+        line-height: 1.5em;
+        padding: 0.5em;
+    }
+
+    section {
+        display: flex;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    #section_about img {
+        width: 30%;
+        padding-right: 4em;
+        margin-left: 2em;
+    }
+
+    .gallery {
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    .gallery img {
+        width: 32%;
+        margin: 0.2em;
+    }
+
+    #section_contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        justify-content: space-around;
+        width: 40%;
+        margin: 0 2.5em;
+    }
+
+    form label {
+        font-family: Quicksand, sans-serif;
+        font-size: 0.7em;
+    }
+
+    form input[type="text"] {
+        width: 80%;
+        margin-bottom: 1.2em;
+    }
+
+    form textarea {
+        width: 80%;
+        margin-bottom: 1.2em;
+    }
+
+    form input[type="submit"] {
+        background-color: dimgray;
+        border: none;
+        border-radius: 0.3em;
+        padding: 0.2em 1em;
+    }
+
+    footer {
+        font-family: Libre Caslon Text, serif;
+        font-size: 0.8em;
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        color: #333;
+    }
+}
