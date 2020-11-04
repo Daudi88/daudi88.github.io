@@ -157,9 +157,8 @@
     }
 
     .gallery {
-        justify-content: center;
-        flex-flow: row wrap;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
     }
 
     .gallery img {
