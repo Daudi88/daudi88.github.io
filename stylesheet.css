@@ -158,8 +158,10 @@
     }
 
     .gallery {
-        max-width: 768px;
+        /* max-width: 768px; */
         justify-content: center;
+        flex-flow: row wrap;
+        align-items: flex-start;
     }
 
     .gallery img {
