@@ -156,13 +156,13 @@
     }
 
     .gallery {
-        width: 100%;
+        max-width: 768px;
         justify-content: center;
         flex-flow: row wrap;
     }
 
     .gallery img {
-        max-width: 98%;
+        width: 98%;
         margin: 0.2em;
     }
 
