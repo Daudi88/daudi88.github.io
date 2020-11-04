@@ -69,7 +69,7 @@
     }
     
     .small_logo {
-        font-size: 7vw;
+        font-size: 10vw;
         font-weight: normal;
         color: black;
         text-align: center;
@@ -83,7 +83,7 @@
     }
     
     .dropdown .dropbtn {
-        font-size: 3vw;
+        font-size: 5vw;
         border: none;
         background: none;
         outline: none;
