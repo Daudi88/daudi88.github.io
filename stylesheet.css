@@ -76,7 +76,7 @@
         text-align: center;
         padding-right: 0.5em;
         text-decoration: none;
-        font-family: Kristi;
+        font-family: Kristi, sans-serif;
         padding-top: 0.75rem;
     }
     
@@ -203,10 +203,28 @@
     footer {
         font-family: Libre Caslon Text, serif;
         font-size: 0.8em;
-        display: flex;
-        justify-content: center;
+        display: block;
+        text-align: center;
         padding: 1em;
         color: #333;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: black;
+        font-family: Quicksand, sans-serif;
+    }
+
+    footer a:link {
+        color: black;
+    }
+
+    footer a:visited {
+        color: black;
+    }
+
+    footer a:hover {
+        color: gold;
     }
 }
 
@@ -385,9 +403,27 @@
     footer {
         font-family: Libre Caslon Text, serif;
         font-size: 0.8em;
-        display: flex;
-        justify-content: center;
+        display: block;
+        text-align: center;
         padding: 1em;
         color: #333;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: black;
+        font-family: Quicksand, sans-serif;
+    }
+
+    footer a:link {
+        color: black;
+    }
+
+    footer a:visited {
+        color: black;
+    }
+
+    footer a:hover {
+        color: gold;
     }
 }
