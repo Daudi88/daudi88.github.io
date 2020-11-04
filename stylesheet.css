@@ -156,8 +156,6 @@
     }
 
     .gallery {
-        display: flex;
-        flex-wrap: wrap;
         max-width: 768px;
         justify-content: center;
         flex-flow: row wrap;
@@ -165,7 +163,7 @@
 
     .gallery img {
         max-width: 100%;
-        align-self: flex-start;
+        height: auto !important;
         padding: 0.2em;
     }
 
