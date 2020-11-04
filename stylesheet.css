@@ -156,6 +156,8 @@
     }
 
     .gallery {
+        display: flex;
+        flex-wrap: wrap;
         max-width: 768px;
         justify-content: center;
         flex-flow: row wrap;
