@@ -148,6 +148,7 @@
 
     #section_about {
         display: block;
+        align-items: flex-start;
         margin: 2em;
     }
 
@@ -159,7 +160,7 @@
     .gallery {
         max-width: 768px;
         justify-content: center;
-        flex-flow: row wrap;
+        align-items: flex-start;
     }
 
     .gallery img {
@@ -331,6 +332,7 @@
     }
 
     #section_about img {
+        align-self: flex-start;
         width: 30%;
         height: auto;
         padding-right: 4em;
@@ -340,6 +342,7 @@
     .gallery {
         justify-content: center;
         flex-flow: row wrap;
+        align-items: flex-start;
     }
 
     .gallery img {
