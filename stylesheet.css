@@ -158,13 +158,12 @@
     }
 
     .gallery {
-        display: flex;
         max-width: 768px;
         justify-content: center;
-        flex-direction: column;
     }
 
     .gallery img {
+        flex-direction: column;
         max-width: 100%;
         height: auto !important;
         padding: 0.2em;
