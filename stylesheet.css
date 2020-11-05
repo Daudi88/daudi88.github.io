@@ -154,11 +154,11 @@ body {
 
     .nav_phones {display: none;}
 
-    body {
+    /* body {
         width: 100%;
         margin: 0 auto;
         background-color: ghostwhite;
-    }
+    } */
 
     nav {
         display: flex;
