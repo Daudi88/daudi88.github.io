@@ -8,11 +8,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: ghostwhite;
+}
+
 @media only screen and (max-width: 768px) {
-    
-    body {
-        background-color: ghostwhite;
-    }
     
     nav {
         display: flex;
@@ -26,12 +26,12 @@
     .nav_desktop {
         display: none;
     }
-    
+
     #small_index {
-        height: 20em;
         background-image: url("img/backgrounds/bride-1867228_1920.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
+        height: 20em;
     }
     
     #small_about {
@@ -122,30 +122,6 @@
         display: block;
     }
 
-    article {
-        padding: 1em 1em;
-    }
-
-    h2, h3 {
-        font-family: Quicksand, sans-serif;
-        margin-bottom: -0.1em;
-        font-size: 1.2em;
-        padding-left: 0.4em;
-    }
-
-    p {
-        font-family: Libre Caslon Text, serif;
-        line-height: 1.5em;
-        font-size: 0.9em;
-        padding: 0.5em;
-    }
-
-    section {
-        display: flex;
-        margin-top: 2em;
-        margin-bottom: 4em;
-    }
-
     #section_about {
         display: block;
         margin: 2em;
@@ -167,37 +143,10 @@
         padding: 0.2em;
     }
 
-    #section_contact {
-        display: flex;
-        flex-direction: column;
-    }
-
     form {
         justify-content: center;
         width: 80%;
         margin: 0 2em;
-    }
-
-    form label {
-        font-family: Quicksand, sans-serif;
-        font-size: 0.7em;
-    }
-
-    form input[type="text"] {
-        width: 100%;
-        margin-bottom: 1.2em;
-    }
-
-    form textarea {
-        width: 100%;
-        margin-bottom: 1.2em;
-    }
-
-    form input[type="submit"] {
-        background-color: dimgray;
-        border: none;
-        border-radius: 0.3em;
-        padding: 0.2em 1em;
     }
 }
 
@@ -298,28 +247,6 @@
         top: -0.5em;
     }
 
-    article {
-        padding: 0 2em;
-    }
-
-    h2, h3 {
-        font-family: Quicksand, sans-serif;
-        margin-bottom: -0.1em;
-        padding: 0.3em;
-    }
-
-    p {
-        font-family: Libre Caslon Text, serif;
-        line-height: 1.5em;
-        padding: 0.5em;
-    }
-
-    section {
-        display: flex;
-        margin-top: 2em;
-        margin-bottom: 4em;
-    }
-
     #section_about img {
         align-self: flex-start;
         width: 30%;
@@ -340,38 +267,62 @@
         margin: 0.2em;
     }
 
-    #section_contact {
-        display: flex;
-        flex-direction: column;
-    }
-
     form {
         justify-content: space-around;
         width: 40%;
         margin: 0 2.5em;
     }
+}
 
-    form label {
-        font-family: Quicksand, sans-serif;
-        font-size: 0.7em;
-    }
+article {
+    padding: 1em 1em;
+}
 
-    form input[type="text"] {
-        width: 80%;
-        margin-bottom: 1.2em;
-    }
+h2, h3 {
+    font-family: Quicksand, sans-serif;
+    margin-bottom: -0.1em;
+    font-size: 1.2em;
+    padding-left: 0.4em;
+}
 
-    form textarea {
-        width: 80%;
-        margin-bottom: 1.2em;
-    }
+p {
+    font-family: Libre Caslon Text, serif;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding: 0.5em;
+}
 
-    form input[type="submit"] {
-        background-color: dimgray;
-        border: none;
-        border-radius: 0.3em;
-        padding: 0.2em 1em;
-    }
+section {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+#section_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-family: Quicksand, sans-serif;
+    font-size: 0.7em;
+}
+
+form input[type="text"] {
+    width: 100%;
+    margin-bottom: 1.2em;
+}
+
+form textarea {
+    width: 100%;
+    margin-bottom: 1.2em;
+}
+
+form input[type="submit"] {
+    background-color: dimgray;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.2em 1em;
 }
 
 footer {
