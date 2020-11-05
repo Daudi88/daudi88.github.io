@@ -199,33 +199,6 @@
         border-radius: 0.3em;
         padding: 0.2em 1em;
     }
-
-    footer {
-        font-family: Libre Caslon Text, serif;
-        font-size: 0.8em;
-        display: block;
-        text-align: center;
-        padding: 1em;
-        color: #333;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: black;
-        font-family: Quicksand, sans-serif;
-    }
-
-    footer a:link {
-        color: black;
-    }
-
-    footer a:visited {
-        color: black;
-    }
-
-    footer a:hover {
-        color: gold;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -399,31 +372,31 @@
         border-radius: 0.3em;
         padding: 0.2em 1em;
     }
+}
 
-    footer {
-        font-family: Libre Caslon Text, serif;
-        font-size: 0.8em;
-        display: block;
-        text-align: center;
-        padding: 1em;
-        color: #333;
-    }
+footer {
+    font-family: Libre Caslon Text, serif;
+    font-size: 0.8em;
+    display: block;
+    text-align: center;
+    padding: 1em;
+    color: #333;
+}
 
-    footer a {
-        text-decoration: none;
-        color: black;
-        font-family: Quicksand, sans-serif;
-    }
+footer a {
+    text-decoration: none;
+    color: black;
+    font-family: Quicksand, sans-serif;
+}
 
-    footer a:link {
-        color: black;
-    }
+footer a:link {
+    color: black;
+}
 
-    footer a:visited {
-        color: black;
-    }
+footer a:visited {
+    color: black;
+}
 
-    footer a:hover {
-        color: gold;
-    }
+footer a:hover {
+    color: gold;
 }
