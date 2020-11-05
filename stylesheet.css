@@ -12,7 +12,7 @@ body {
     background-color: ghostwhite;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
     
     nav {
         display: flex;
@@ -148,7 +148,7 @@ body {
         width: 80%;
         margin: 0 2em;
     }
-}
+/* } */
 
 @media only screen and (min-width: 768px) {
 
