@@ -140,7 +140,6 @@ body {
     .gallery img {
         max-width: 100%;
         height: auto !important;
-        /* padding: 0.2em; */
     }
 
     form {
@@ -278,8 +277,7 @@ body {
 
     .gallery img {
         max-width: 50%;
-        height: auto !important;
-        /* padding: 0.2em; */
+        height: auto;
     }
 
     form {
@@ -289,7 +287,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 
     .nav_phones {display: none;}
 
@@ -397,7 +395,6 @@ body {
     .gallery img {
         width: 33%;
         height: auto;
-        /* margin: 0.2em; */
     }
 
     form {
