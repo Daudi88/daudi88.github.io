@@ -35,8 +35,8 @@ body {
     }
     
     #small_about {
-        background-image: url("img/backgrounds/J76A0527.jpg");
-        background-position: left 0;
+        background-image: url("img/backgrounds/J76A0617.jpg");
+        background-position: bottom;
         background-size: 100%;
     }
     
@@ -59,9 +59,9 @@ body {
     }
     
     #small_business {
-        background-image: url("img/backgrounds/J76A0617.jpg");
+        background-image: url("img/backgrounds/8X2A0775.jpg");
         background-size: 100%;
-        background-position: bottom;
+        background-position: center 80%;
     }
     
     #small_contact {
@@ -172,8 +172,8 @@ body {
     }
     
     #small_about {
-        background-image: url("img/backgrounds/J76A0527.jpg");
-        background-position: left 0;
+        background-image: url("img/backgrounds/J76A0617.jpg");
+        background-position: bottom;
         background-size: 100%;
     }
     
@@ -196,9 +196,9 @@ body {
     }
     
     #small_business {
-        background-image: url("img/backgrounds/J76A0617.jpg");
+        background-image: url("img/backgrounds/8X2A0775.jpg");
         background-size: 100%;
-        background-position: bottom;
+        background-position: center 70%
     }
     
     #small_contact {
@@ -314,8 +314,9 @@ body {
     }
 
     #nav_about {
-        background-image: url("img/backgrounds/J76A0527.jpg");
+        background-image: url("img/backgrounds/J76A0617.jpg");
         background-size: 100%;
+        background-position: bottom;
     }
 
     #nav_wedding {
@@ -337,9 +338,9 @@ body {
     }
 
     #nav_business {
-        background-image: url("img/backgrounds/J76A0617.jpg");
+        background-image: url("img/backgrounds/8X2A0775.jpg");
         background-size: 100%;
-        background-position: bottom;
+        background-position: center 80%;
     }
 
     #nav_contact {
