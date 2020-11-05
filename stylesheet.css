@@ -260,7 +260,7 @@ body {
     }
 
     #section_about {
-        display: block;
+        display: flex;
         margin: 2em;
     }
 
@@ -380,6 +380,11 @@ body {
         font-weight: normal;
         position: relative;
         top: -0.5em;
+    }
+
+    #section_about {
+        display: flex;
+        margin: 2em;
     }
 
     #section_about img {
