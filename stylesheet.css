@@ -413,7 +413,7 @@ body {
     form {
         justify-content: space-around;
         width: 40%;
-        margin: 0 2em;
+        margin: 0 1em;
     }
 }
 
@@ -425,7 +425,7 @@ h2, h3 {
     font-family: Quicksand, sans-serif;
     margin-bottom: -0.1em;
     font-size: 1.2em;
-    padding-left: 0.4em;
+    padding-left: 0.5em;
 }
 
 p {
