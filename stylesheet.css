@@ -297,6 +297,10 @@ body {
         justify-content: center;
     }
 
+    .nav_desktop {
+        display: flex;
+    }
+
     #nav_index {
         display: flex;
         background-image: url("img/backgrounds/bride-1867228_1920.jpg");
