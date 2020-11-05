@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv"> <!--Här beskriver jag vilket språk sidan innehåller-->
     <head>
-        <title>Freya Photos</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <title>Freya Photos</title> <!--Här är titeln som kommer visas uppe i "flik-huvudet"-->
+        <meta charset="UTF-8"> <!--Här beskriver jag vilka tecken jag kommer använda-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Här sätter jag den initiala storleken på hemsidan-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <!--Här ovanför länkar jag till ikonen för fa fa-bars-->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"> <!--Här länkar jag till css-filen-->
     </head>
-    <body>
-        <a name="top"></a>
-        <nav class="nav_phones" id="small_index">
+    <body id="top"><!--Här är ett ankare för länken i botten av sidan-->
+        <nav class="nav_phones" id="small_index"> <!--Här är navigeringen för små skärmar-->
             <a class="small_logo" href="index.html">Freya Photos</a>
-            <div class="dropdown">
+            <div class="dropdown"> <!--Jag använder en dropdown-meny med hjälp av en button, 
+                en fa fa-bars bild och länkar som content-->
                 <button class="dropbtn">
                   <i class="fa fa-bars"></i>
                 </button>
@@ -25,8 +26,8 @@
                 </div>
               </div>
         </nav>
-        <nav class="nav_desktop" id="nav_index">
-            <ul>
+        <nav class="nav_desktop" id="nav_index"> <!--Här är menyn för stora skärmar-->
+            <ul> <!--Jag använder en oordnad lista och placerar varje länk i ett list item-->
                 <li><a href="about.html">OM FREYA</a></li>
                 <li><a href="wedding.html">BRÖLLOP</a></li>
                 <li><a href="portrait.html">PORTRÄTT</a></li>
@@ -36,7 +37,7 @@
                 <li><a href="contact.html">KONTAKT</a></li>
             </ul>
         </nav>
-        <section>
+        <section> <!--Här har vi en sektion som innehåller en artikel med en rubrik och en paragraf-->
             <article>
                 <h2>FREYA PHOTOS</h2>
                 <p>Jag heter Freya och bor i centrala Stockholm. Jag utgår från 
@@ -45,9 +46,12 @@
                     bröllop, porträtt, familj och företag.</p>
             </article>
         </section>
-        <footer>
+        <footer> <!--Här är en footer med en länk till toppen av sidan och en Copyright-text-->
             <a href="#top">TILLBAKA TILL TOPPEN</a>
             <p>Copyright 2020 Freya Photos</p>
         </footer>
     </body>
 </html>
+
+<!--Stora delar av koden är samma på varje sida. Jag kommer inte kommentera kod som jag
+     tidigare redan kommenterat utan bara sådant som är nytt-->
