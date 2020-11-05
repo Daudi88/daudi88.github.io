@@ -265,9 +265,13 @@ body {
     }
 
     #section_about img {
-        width: 100%;
+        align-self: flex-start;
+        width: 30%;
         height: auto;
+        padding-right: 4em;
+        margin-left: 2em;
     }
+
 
     .gallery {
         display: flex;
