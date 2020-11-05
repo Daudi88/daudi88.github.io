@@ -395,9 +395,9 @@ body {
     }
 
     .gallery img {
-        width: 32%;
+        width: 33%;
         height: auto;
-        margin: 0.2em;
+        /* margin: 0.2em; */
     }
 
     form {
