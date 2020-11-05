@@ -265,8 +265,8 @@ body {
     }
 
     #section_about img {
-        align-self: flex-end;
-        width: 50%;
+        align-self: flex-start;
+        width: 40%;
         height: auto;
         padding-right: 4em;
         margin-left: 2em;
