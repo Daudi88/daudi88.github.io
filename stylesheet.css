@@ -299,6 +299,10 @@ body { /*Här sätter jag bakgrundsfärgen för hela sidan till ghostwhite*/
         width: 80%;
         margin: 0 1.5em;
     }
+
+    section p {
+        max-width: 80%;
+    }
 }
 
 @media only screen and (min-width: 992px) { 
@@ -426,6 +430,10 @@ body { /*Här sätter jag bakgrundsfärgen för hela sidan till ghostwhite*/
         justify-content: space-around;
         width: 40%;
         margin: 0 1.5em;
+    }
+
+    section p {
+        max-width: 70%;
     }
 }
 
